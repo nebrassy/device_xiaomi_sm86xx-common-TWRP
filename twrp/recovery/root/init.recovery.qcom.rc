@@ -59,7 +59,7 @@ on property:twrp.modules.loaded=true
     write /sys/kernel/boot_adsp/boot 1
     wait /sys/class/power_supply/battery
     start health-hal-2-1
-    start health-default
+    #start health-default
     start vibratorfeature-hal-service
     umount /firmware
 
