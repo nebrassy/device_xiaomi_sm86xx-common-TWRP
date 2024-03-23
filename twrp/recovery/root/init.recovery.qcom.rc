@@ -66,3 +66,6 @@ on property:twrp.modules.loaded=true
 on property:twrp.all.users.decrypted=true
     umount /mnt/vendor/persist
 
+on property:vendor.sys.listeners.registered=true
+    start weaver_nxp
+
